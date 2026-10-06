@@ -21,7 +21,7 @@ It also points `core.hooksPath` at `.githooks`.
 ## How it works
 
 Rules live only in `cursor-rules/*.mdc`. The pre-commit hook regenerates the
-single `AGENTS.md` (stripping Cursor-only frontmatter) on every commit, so
-opencode and Claude Code always get a fresh copy without duplication.
+single `generated/AGENTS.md` (stripping Cursor-only frontmatter) on every
+commit, so opencode and Claude Code always get a fresh copy without duplication.
 
 Change a rule → commit in this repo → restart opencode.

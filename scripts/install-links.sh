@@ -22,9 +22,9 @@ link() {
 
 link "$ROOT/cursor-rules" "$HOME/.cursor/rules"
 link "$ROOT/skills" "$HOME/.cursor/skills"
-link "$ROOT/AGENTS.md" "$HOME/.config/opencode/AGENTS.md"
+link "$ROOT/generated/AGENTS.md" "$HOME/.config/opencode/AGENTS.md"
 link "$ROOT/skills" "$HOME/.config/opencode/skills"
-link "$ROOT/AGENTS.md" "$HOME/.claude/CLAUDE.md"
+link "$ROOT/generated/AGENTS.md" "$HOME/.claude/CLAUDE.md"
 link "$ROOT/skills" "$HOME/.claude/skills"
 
 git -C "$ROOT" config core.hooksPath .githooks

@@ -2,8 +2,9 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-OUT="$ROOT/AGENTS.md"
+OUT="$ROOT/generated/AGENTS.md"
 
+mkdir -p "$(dirname "$OUT")"
 : > "$OUT"
 
 for f in "$ROOT"/cursor-rules/*.mdc; do
