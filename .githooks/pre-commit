@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(git rev-parse --show-toplevel)"
+"$ROOT/scripts/build-agents.sh"
+
+if git status --porcelain -- AGENTS.md | grep -q .; then
+  git add AGENTS.md
+  echo "AGENTS.md regenerated from cursor-rules/*.mdc"
+fi
