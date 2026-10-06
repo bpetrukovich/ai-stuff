@@ -1,0 +1,8 @@
+---
+description: "Push workflow: never push to remote unless the user explicitly uses one of the magic words."
+alwaysApply: true
+---
+
+### Push Workflow (Strict Safeguards)
+* **NEVER push to any remote repository** unless the user explicitly uses one of the magic words: **"запуш"** or **"push please"**. Without one of these exact phrases, pushing is forbidden even if the user asks to commit, or mentions a PR, or appears to imply it.
+* When in doubt whether the user asked to push, default to NOT pushing and instead ask for confirmation.

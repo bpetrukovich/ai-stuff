@@ -32,6 +32,11 @@
 * After pushing the newly created branch to the remote repository (do it only if requested explicitly), extract and print the dynamic link to create a Pull Request (PR) in the final response.
 
 
+### Push Workflow (Strict Safeguards)
+* **NEVER push to any remote repository** unless the user explicitly uses one of the magic words: **"запуш"** or **"push please"**. Without one of these exact phrases, pushing is forbidden even if the user asks to commit, or mentions a PR, or appears to imply it.
+* When in doubt whether the user asked to push, default to NOT pushing and instead ask for confirmation.
+
+
 ### Skill Invocation
 * After completing work across one or more repositories, call the `register-review-task` skill to register a review request.
 * Register the task **only when all work is fully ready for review** (all commits pushed, branches created, no pending changes). Do not register partial or in-progress work.
