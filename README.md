@@ -1,13 +1,19 @@
-I want to create a single source of truth for all my global AI-related rules and skills.
+# AI Rules
 
-Seems I have to do it in cursor format.
+Single source of truth for all global AI rules and skills.
 
-But then I can copy it to the other agents eg.
+## Setup
 
-cursor:
-rules: ~/.cursor/rules/
-skills: ~/.cursor/skills/
+| Tool     | Rules | Skills |
+| -------- | ----- | ------ |
+| Cursor   | `~/.cursor/rules/` | `~/.cursor/skills/` |
+| opencode | `~/.config/opencode/AGENTS.md` | `~/.config/opencode/skills/` |
 
-opencode:
-rules: ~/.config/opencode/AGENTS.md
-skills: ~/.config/opencode/skills/
+## Symlinks
+
+```sh
+# WARNING: this will delete all your existing rules and skills
+rm -rf ~/.cursor/rules ~/.cursor/skills
+ln -s ~/ai/cursor-rules ~/.cursor/rules
+ln -s ~/ai/skills ~/.cursor/skills
+```
