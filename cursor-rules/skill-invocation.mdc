@@ -1,0 +1,8 @@
+---
+description: "Skill invocation: after finishing parallel work, call the register-review-task skill to queue a review — only when everything is ready."
+alwaysApply: true
+---
+
+### Skill Invocation
+* After completing work across one or more repositories, call the `register-review-task` skill to register a review request.
+* Register the task **only when all work is fully ready for review** (all commits pushed, branches created, no pending changes). Do not register partial or in-progress work.

@@ -1,0 +1,8 @@
+---
+description: "Commit workflow: end every interaction turn with a commit and keep history atomic and human-readable."
+alwaysApply: true
+---
+
+### Commit Workflow
+* **Continuous Commits:** Any code modifications, fixes, or completed steps must end with a git commit. Avoid leaving uncommitted changes at the end of an interaction turn.
+* **Atomic & Readable History:** Break down large tasks into clear, atomic, and human-readable commits. Each commit must be buildable, represent a complete idea, and be compact enough for a quick, high-quality review.

@@ -1,0 +1,9 @@
+---
+description: "Worktree & multi-repo management: create dedicated top-level task directories and named worktrees for each repository."
+alwaysApply: true
+---
+
+### Worktree & Multi-Repo Management
+* If tasked with implementing changes in a multi-repo setup, always create a dedicated directory named after the task number (e.g., `pp-123456`). ASK user where to create this directory, provide some suggestions.
+* Inside this directory, create separate git worktrees for the required repositories.
+* Name each worktree using the format: `original_folder_name-task_number`.

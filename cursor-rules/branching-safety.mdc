@@ -1,0 +1,7 @@
+---
+description: "Branching safeguards: never commit to protected/default branches; always ask to create a side branch or worktree first."
+alwaysApply: true
+---
+
+### Branching & Commit Workflow (Strict Safeguards)
+* **NEVER commit or edit somehow main / release / dev / master or any other production branches.** If currently on a main branch, explicitly ask to create a separate side branch or a worktree before writing any code.

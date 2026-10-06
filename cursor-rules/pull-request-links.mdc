@@ -1,0 +1,7 @@
+---
+description: "Verification & PR links: after pushing a new branch, print the dynamic PR creation link in the final response."
+alwaysApply: true
+---
+
+### Verification & PR Links
+* After pushing the newly created branch to the remote repository (do it only if requested explicitly), extract and print the dynamic link to create a Pull Request (PR) in the final response.
