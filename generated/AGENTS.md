@@ -37,9 +37,9 @@
 * When in doubt whether the user asked to push, default to NOT pushing and instead ask for confirmation.
 
 
-### Skill Invocation
-* After completing work across one or more repositories, call the `register-review-task` skill to register a review request.
-* Register the task **only when all work is fully ready for review** (all commits pushed, branches created, no pending changes). Do not register partial or in-progress work.
+### register-review-task Skill Invocation
+* After completing a piece work across one or more repositories, call the `register-review-task` skill to register a review request.
+* Register the task **only when all work is fully ready for review**. Do not register partial, non-commited work.
 
 
 ### Worktree & Multi-Repo Management
