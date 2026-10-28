@@ -1,5 +1,5 @@
 ---
-description: "After finishing parallel work, call the register-review-task skill to queue a review — only when commits are ready for user's review."
+description: "After finishing work, call the register-review-task skill to queue a review — only when commits are ready for user's review."
 alwaysApply: true
 ---
 

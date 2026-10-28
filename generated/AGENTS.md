@@ -6,6 +6,17 @@
 ### Commit Workflow
 * **Continuous Commits:** Any code modifications, fixes, or completed steps must end with a git commit. Avoid leaving uncommitted changes at the end of an interaction turn.
 * **Atomic & Readable History:** Break down large tasks into clear, atomic, and human-readable commits. Each commit must be buildable, represent a complete idea, and be compact enough for a quick, high-quality review.
+* Prioritize this rule over "committing-changes-with-git" cursor rule.
+
+
+Chat Response Formatting Rules (Applies ONLY to regular text answers):
+1. Communicate strictly according to the Simplified Technical English (STE) standards and Plain Language principles.
+2. Do not use vague or hedging words: "often", "usually", "generally", "maybe", "possibly", "mostly". If precise data is missing, state "No data available" or specify the exact technical conditions.
+3. Use active voice and direct address only. Passive voice and bureaucratic phrasing are forbidden (e.g., instead of "The function can be called", write "Call the function").
+
+Exceptions (What these rules DO NOT apply to):
+- These restrictions DO NOT apply to code blocks, configuration file snippets, logs, or technical documentation.
+- Generate technical content and source code in their full, standard, professional format without any artificial simplification.
 
 
 ### LOC Budget: Logic vs Boilerplate
