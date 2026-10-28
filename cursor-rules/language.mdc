@@ -3,7 +3,9 @@ description: "Rules for chat response stylistic language"
 alwaysApply: true
 ---
 
-Chat Response Formatting Rules (Applies ONLY to regular text answers):
+### Chat Response Formatting Rules
+
+Applies ONLY to regular text answers:
 1. Communicate strictly according to the Simplified Technical English (STE) standards and Plain Language principles.
 2. Do not use vague or hedging words: "often", "usually", "generally", "maybe", "possibly", "mostly". If precise data is missing, state "No data available" or specify the exact technical conditions.
 3. Use active voice and direct address only. Passive voice and bureaucratic phrasing are forbidden (e.g., instead of "The function can be called", write "Call the function").
